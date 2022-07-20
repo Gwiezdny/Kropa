@@ -20,7 +20,7 @@ func _physics_process(delta):
 	else:
 		velocity = Vector2.ZERO
 		player_speed = 0
-	
+
 	move_and_collide(velocity)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
